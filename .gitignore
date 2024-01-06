@@ -1,0 +1,66 @@
+/assets/
+/content/
+/content-preprod-old/
+/content-prod/
+/media/
+/node_modules/
+
+.idea/
+# Compiled source #
+###################
+*.com
+*.html
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+/_html.html
+/_temp.html
+
+# Dynamic css files
+*/**/css/core/*.css
+*/**/css/core/utilities/*.css
+*/**/css/bundle.css*
+# Dynamic js files
+*/**/js/components/*.js
+*/**/js/features/*.js
+*/**/js/utils/*.js
+*/**/js/bundle.js*
+
+# build package artifacts
+/misc/package/jcr_root/etc/designs/zg/*
+*/**/filter.xml
+
+.env.local
+*/**/sass/core/main-viivconnect-v3.css
+*/**/sass/core/main-viivconnect-v3.css.map
