@@ -1,0 +1,28 @@
+{
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "nodemon -e scss -x \"npm run compile-sass\"",
+    "compile-sass": "sass sass/index.scss css/index.css"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^3.0.1",
+    "sass": "^1.69.7"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
