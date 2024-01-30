@@ -58,7 +58,6 @@ Thumbs.db
 */**/js/bundle.js*
 
 # build package artifacts
-/misc/package/jcr_root/etc/designs/zg/*
 */**/filter.xml
 
 .env.local
